@@ -1,7 +1,7 @@
 {
 	"trains": [
 		{
-			"name": "Amtrak - Washington",
+			"name": "Amtrak-Washington",
 			"stops": [
 				{
 					"station": "Stamford",
@@ -37,7 +37,7 @@
 			]
 		},
 		{
-			"name": "Amtrak Boston",
+			"name": "Amtrak-Boston",
 			"stops": [
 				{
 					"station": "Stamford",
