@@ -1,16 +1,16 @@
 {
 	"trains": [
 		{
-			"name": "Hogwarts Express",
+			"name": "Amtrak - Washington",
 			"stops": [
 				{
-					"station": "Sycamore",
+					"station": "Stamford",
 					"status": "ON-TIME",
 					"arrival": "12:00pm",
 					"departure": "12:10pm"
 				},
 				{
-					"station": "Pine",
+					"station": "Penn Station",
 					"status": "ON-TIME",
 					"arrival": "1:00pm",
 					"departure": "1:10pm"
@@ -18,54 +18,54 @@
 			]
 		},
 		{
-			"name": "Flying Scotsman",
+			"name": "Metro-North 7:35AM Express",
 			"stops": [
 				{
-					"station": "Pine",
+					"station": "Stamford",
+					"status": "ON-TIME",
+					"arrival": "7:35am",
+					"departure": "7:40am"
+				},
+				{
+					"station": "125th Streer",
+					"status": "DELAYED",
+					"arrival": "8:10aam",
+					"departure": "8:15am",
+					"delayedArrival": "8:30am",
+					"delayedDeparture": "8:35am"
+				}
+			]
+		},
+		{
+			"name": "Amtrak Boston",
+			"stops": [
+				{
+					"station": "Stamford",
 					"status": "ON-TIME",
 					"arrival": "12:00pm",
 					"departure": "12:10pm"
 				},
 				{
-					"station": "Sycamore",
+					"station": "New Haven",
 					"status": "DELAYED",
 					"arrival": "1:00pm",
 					"departure": "1:10pm",
-					"delayedArrival": "1:00pm",
+					"delayedArrival": "1:07pm",
 					"delayedDeparture": "1:17pm"
 				}
 			]
 		},
 		{
-			"name": "Orient Express",
+			"name": "Metro North - Danbury",
 			"stops": [
 				{
-					"station": "Sycamore",
+					"station": "Stamford",
 					"status": "ON-TIME",
 					"arrival": "12:00pm",
 					"departure": "12:10pm"
 				},
 				{
-					"station": "Cypress",
-					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
-				}
-			]
-		},
-		{
-			"name": "Golden Arrow",
-			"stops": [
-				{
-					"station": "Cypress",
-					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
-				},
-				{
-					"station": "Pine",
+					"station": "South Norwalk",
 					"status": "DELAYED",
 					"arrival": "1:00pm",
 					"departure": "1:10pm",
@@ -73,12 +73,12 @@
 					"delayedDeparture": "1:17pm"
 				},
 				{
-					"station": "Hickory",
+					"station": "Cannondale",
 					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
+					"arrival": "1:30pm",
+					"departure": "1:40pm",
+					"delayedArrival": "1:47pm",
+					"delayedDeparture": "1:57pm"
 				}
 			]
 		}
